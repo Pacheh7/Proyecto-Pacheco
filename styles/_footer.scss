@@ -1,0 +1,26 @@
+.footer {
+    background-color: $colorFooter;
+    margin: 20px 30px;
+    border-radius: 8px;
+    border-style:double;
+    border-width: 6px;
+    color: black;
+
+    h4 {
+        font-size: $textBase+2;
+        margin-top: 5px;
+
+    }
+}
+
+.redes {
+    margin-top: 2px;
+    padding: 3px 40px;
+    
+    &:hover {
+        transform: scale(1.1);
+        transition-duration: 2s;
+        cursor: pointer;
+    }
+}
+

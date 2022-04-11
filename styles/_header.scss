@@ -1,0 +1,44 @@
+header {
+    background-color: $colorHeader;
+    padding: 30px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 8px;
+    border-width: 8px;
+    border-style: double;
+    border-color: white;
+
+    h1 {
+        display: inline-block;
+         margin: 0 auto;
+        font-size: $textHeader+7;
+        background-color:#525252;
+        border-radius: 8px;
+        padding: 3px 8px;
+        margin-bottom: 8px;
+     
+    }
+    h2 {
+        display: inline-block;
+        margin: 0 auto;
+       font-size: $textHeader+2;
+       background-color:#525252;
+       border-radius: 8px;
+       padding: 3px 8px;
+       margin-bottom: 5px; 
+    }
+}
+
+.navBarLista {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    background-color:#525252 ;
+    border-radius: 5px;
+    &:hover {
+        cursor: pointer;
+        color: orange;
+    }
+}
